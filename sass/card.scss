@@ -1,0 +1,43 @@
+figcaption {
+    padding-top: 4.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    .name {
+        color: $color-blue;
+        padding-bottom: .7rem;
+
+        span {
+            color: $color-grey;
+        }
+    }
+    .country{
+        color: $color-grey;
+    }
+    margin-bottom: 1rem;
+}
+
+.id__box--social
+{
+    border-top: 1px solid rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-around;
+    align-items: space-between;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+
+    &--1:not(:last-child){
+        margin-right: 1.5rem;
+       
+
+    }
+    span{
+        display: block;
+        color: $color-grey;
+        font-size: 1rem;
+    }
+    
+
+}
